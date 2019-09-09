@@ -1,5 +1,5 @@
 if [[ ! $DISPLAY && $XDG_VTNR -eq 1 ]]; then
-  exec sway
+  exec startxfce4
 #elif [[ $XDG_VTNR ]]; then
 #  exec tmux attach
 fi

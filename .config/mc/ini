@@ -116,6 +116,10 @@ base_color=
 xterm-256color=
 color_terminals=
 
+tmux-256color=
+
+screen.xterm-256color=
+
 [Panels]
 show_mini_info=true
 kilobyte_si=false
