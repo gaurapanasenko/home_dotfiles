@@ -1,0 +1,9 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Type=Application
+Name=xephyr-helper
+Comment=Simple usability services for Xephyr
+Terminal=false
+Exec=/home/egor/.local/bin/xephyr-helper
+NotShowIn=LXDE;

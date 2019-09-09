@@ -1,0 +1,180 @@
+{
+    "layer": "bottom",
+    "position": "top",
+    "height": "",
+
+    "modules-left": [
+        "sway/window",
+        "custom/right-arrow-dark"
+    ],
+    "modules-center": [
+    ],
+    "modules-right": [
+        "custom/left-arrow-dark",
+        "tray",
+        "pulseaudio",
+        "cpu",
+        "memory",
+        "network",
+        "backlight",
+        "battery",
+        "temperature",
+        "clock#1",
+        "clock#2"
+    ],
+
+    "custom/left-arrow-dark": {
+        "format": "",
+        "tooltip": false
+    },
+    "custom/left-arrow-light": {
+        "format": "",
+        "tooltip": false
+    },
+    "custom/right-arrow-dark": {
+        "format": "",
+        "tooltip": false
+    },
+    "custom/right-arrow-light": {
+        "format": "",
+        "tooltip": false
+    },
+
+    "sway/workspaces": {
+        "disable-scroll": true,
+        "format": "{name}"
+    },
+    "sway/mode": {
+        "format": "<span style=\"italic\">{}</span>"
+    },
+    "mpd": {
+        "format": "{stateIcon} {consumeIcon}{randomIcon}{repeatIcon}{singleIcon}{artist} - {album} - {title} ({elapsedTime:%M:%S}/{totalTime:%M:%S}) ",
+        "format-disconnected": "Disconnected ",
+        "format-stopped": "{consumeIcon}{randomIcon}{repeatIcon}{singleIcon}Stopped ",
+        "unknown-tag": "N/A",
+        "interval": 2,
+        "consume-icons": {
+            "on": " "
+        },
+        "random-icons": {
+            "off": "<span color=\"#f53c3c\"></span> ",
+            "on": " "
+        },
+        "repeat-icons": {
+            "on": " "
+        },
+        "single-icons": {
+            "on": "1 "
+        },
+        "state-icons": {
+            "paused": "",
+            "playing": ""
+        },
+        "tooltip-format": "MPD (connected)",
+        "tooltip-format-disconnected": "MPD (disconnected)"
+    },
+    "idle_inhibitor": {
+        "format": "{icon}",
+        "format-icons": {
+            "activated": "",
+            "deactivated": ""
+        }
+    },
+    "tray": {
+        "icon-size": 16,
+        "spacing": 10
+    },
+    "clock#1": {
+        "format": " {:%y-%m-%d} ",
+        "tooltip": false
+    },
+    "clock#2": {
+        "format": " {:%H:%M:%S} ",
+        "interval": 1,
+        "tooltip": false
+    },
+    "cpu": {
+        "interval": 5,
+        "format": " {usage}%  ",
+        "tooltip": false
+    },
+    "memory": {
+        "interval": 5,
+        "format": " {}%  ",
+        "tooltip": false
+    },
+    "temperature": {
+        // "thermal-zone": 2,
+        // "hwmon-path": "/sys/class/hwmon/hwmon2/temp1_input",
+        "critical-threshold": 80,
+        // "format-critical": " {temperatureC}°C {icon} ",
+        "format": " {temperatureC}°C {icon} ",
+        "format-icons": ["", "", ""],
+        "tooltip": false
+    },
+    "backlight": {
+        "device": "intel_backlight",
+        "format": " {percent}% {icon} ",
+        "on-scroll-up": "light -A 0.25",
+        "on-scroll-down": "light -U 0.25",
+        "format-icons": ["", ""],
+        "tooltip": false
+    },
+    "battery": {
+        "states": {
+            // "good": 95,
+            "warning": 30,
+            "critical": 15
+        },
+        "format": " {capacity}% {icon} ",
+        "format-charging": " {capacity}%  ",
+        "format-plugged": " {capacity}%  ",
+        "format-alt": " {time} {icon} ",
+        // "format-good": "", // An empty format will hide the module
+        // "format-full": "",
+        "format-icons": ["", "", "", "", ""],
+        "tooltip": false
+    },
+    "network": {
+        // "interface": "wlp2*", // (Optional) To force the use of this interface
+        "format-wifi": " {essid} ({signalStrength}%)  ",
+        "format-ethernet": " {ifname}: {ipaddr}/{cidr}  ",
+        "format-linked": " {ifname} (No IP)  ",
+        "format-disconnected": " Disconnected ⚠ ",
+        "format-alt": " {ifname}: {ipaddr}/{cidr} ",
+        "tooltip": false
+    },
+    "pulseaudio": {
+        // "scroll-step": 1, // %, can be a float
+        "format": " {volume}% {icon} {format_source} ",
+        "format-bluetooth": " {volume}% {icon} {format_source} ",
+        "format-muted": "  {format_source} ",
+        "format-source": "{volume}% ",
+        "format-source-muted": "",
+        "format-icons": {
+            "headphones": "",
+            "handsfree": "",
+            "headset": "",
+            "phone": "",
+            "portable": "",
+            "car": "",
+            "default": ["", "", ""]
+        },
+        "scroll-step": 5,
+        "on-click": "pamixer -t",
+        "on-click-right": "pavucontrol",
+        "tooltip": false
+    },
+
+    "custom/media": {
+        "format": "{icon} {}",
+        "return-type": "json",
+        "max-length": 40,
+        "format-icons": {
+            "spotify": "",
+            "default": "🎜"
+        },
+        "escape": true,
+        "exec": "$HOME/.config/waybar/mediaplayer.py 2> /dev/null" // Script in resources folder
+    }
+}

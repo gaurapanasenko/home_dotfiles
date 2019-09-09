@@ -1,0 +1,21 @@
+[user]
+	name = Egor Panasenko
+	email = gaura.panasenko@gmail.com
+[core]
+	editor = geany
+[cola]
+	spellcheck = false
+	fontdiff = Fantasque Sans Mono,8,-1,5,50,0,0,0,0,0
+	theme = flat-light-green
+	tabwidth = 2
+[push]
+	default = simple
+[color]
+	ui = auto
+#[gcrypt]
+#	gpg-args = --no-tty
+#[gpg]
+#	program = gpg1
+[gui]
+	editor = geany
+	diffcontext = 5
