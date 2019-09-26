@@ -1,0 +1,32 @@
+[Default Applications]
+x-scheme-handler/http=firefox.desktop
+x-scheme-handler/https=firefox.desktop
+x-scheme-handler/ftp=firefox.desktop
+x-scheme-handler/chrome=firefox.desktop
+text/html=firefox.desktop
+application/x-extension-htm=firefox.desktop
+application/x-extension-html=firefox.desktop
+application/x-extension-shtml=firefox.desktop
+application/xhtml+xml=firefox.desktop
+application/x-extension-xhtml=firefox.desktop
+application/x-extension-xht=firefox.desktop
+image/jpeg=gpicview.desktop
+image/png=gpicview.desktop
+application/pdf=org.gnome.Evince.desktop
+
+[Added Associations]
+x-scheme-handler/http=firefox-esr.desktop;firefox.desktop;
+x-scheme-handler/https=firefox-esr.desktop;firefox.desktop;
+x-scheme-handler/ftp=firefox-esr.desktop;firefox.desktop;
+x-scheme-handler/chrome=firefox-esr.desktop;firefox.desktop;
+text/html=firefox-esr.desktop;firefox.desktop;
+application/x-extension-htm=firefox-esr.desktop;firefox.desktop;
+application/x-extension-html=firefox-esr.desktop;firefox.desktop;
+application/x-extension-shtml=firefox-esr.desktop;firefox.desktop;
+application/xhtml+xml=firefox-esr.desktop;firefox.desktop;
+application/x-extension-xhtml=firefox-esr.desktop;firefox.desktop;
+application/x-extension-xht=firefox-esr.desktop;firefox.desktop;
+image/jpeg=imv.desktop;ristretto.desktop;gimp.desktop;w3s.desktop;gpicview.desktop;
+image/png=imv.desktop;gpicview.desktop;
+text/plain=mousepad.desktop;geany.desktop;
+application/pdf=org.gnome.Evince.desktop;

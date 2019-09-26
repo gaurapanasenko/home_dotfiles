@@ -1,5 +1,5 @@
 favorites=
-recent=firefox.desktop,Thunar.desktop
+recent=virtualbox.desktop,xfce4-screensaver-preferences.desktop,xfce-wmtweaks-settings.desktop,firefox.desktop,Thunar.desktop
 button-title=Applications
 button-icon=xfce4-whiskermenu
 button-single-row=false

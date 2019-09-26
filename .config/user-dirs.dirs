@@ -5,11 +5,11 @@
 # homedir-relative path, or XDG_xxx_DIR="/yyy", where /yyy is an
 # absolute path. No other format is supported.
 # 
-XDG_DESKTOP_DIR="$HOME/cmn/ibx/Desktop"
-XDG_DOWNLOAD_DIR="$HOME/cmn/ibx/Downloads"
-XDG_TEMPLATES_DIR="$HOME/cmn/ibx/Templates"
-XDG_PUBLICSHARE_DIR="$HOME/cmn/ibx/Public"
-XDG_DOCUMENTS_DIR="$HOME/cmn/ibx/Documents"
-XDG_MUSIC_DIR="$HOME/cmn/ibx/Music"
-XDG_PICTURES_DIR="$HOME/cmn/ibx/Pictures"
-XDG_VIDEOS_DIR="$HOME/cmn/ibx/Videos"
+XDG_DESKTOP_DIR="$HOME/ibx"
+XDG_DOWNLOAD_DIR="$HOME/ibx"
+XDG_TEMPLATES_DIR="$HOME/ibx"
+XDG_PUBLICSHARE_DIR="$HOME/ibx"
+XDG_DOCUMENTS_DIR="$HOME/ibx"
+XDG_MUSIC_DIR="$HOME/ibx"
+XDG_PICTURES_DIR="$HOME/ibx"
+XDG_VIDEOS_DIR="$HOME/ibx"
