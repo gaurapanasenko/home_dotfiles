@@ -6,7 +6,7 @@
 [cola]
 	spellcheck = false
 	fontdiff = Fantasque Sans Mono,8,-1,5,50,0,0,0,0,0
-	theme = flat-light-green
+	theme = default
 	tabwidth = 2
 [push]
 	default = simple

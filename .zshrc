@@ -42,5 +42,5 @@ setopt HIST_BEEP                 # Beep when accessing nonexistent history.
 # autoload -U colors
 #colors
 
-alias mc='mc -b'
+alias mc='mc -bx'
 alias sumc='sudo -i mc -b'
