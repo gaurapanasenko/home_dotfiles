@@ -1,4 +1,5 @@
 # GIMP gimp-by-color-select-tool options
 
+(select-criterion r)
 
 # end of gimp-by-color-select-tool options

@@ -21,7 +21,7 @@
     (gimp-toolbox
         (side left)
         (book
-            (current-page 2)
+            (current-page 0)
             (dockable "gimp-tool-options"
                 (tab-style automatic)
                 (aux-info
@@ -108,7 +108,7 @@
     (size 396 547))
 (session-info "toplevel"
     (factory-entry "gimp-levels-tool-dialog")
-    (position 206 113)
+    (position 56 70)
     (size 450 529))
 (session-info "toplevel"
     (factory-entry "gimp-input-devices-dialog")
@@ -146,7 +146,7 @@
     (size 706 596))
 (session-info "toplevel"
     (factory-entry "gimp-operation-tool-dialog")
-    (position 266 152))
+    (position 18 135))
 
 (hide-docks no)
 (single-window-mode yes)

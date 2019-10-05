@@ -1,0 +1,7 @@
+# Unison preferences
+fat = true
+root = /home/egor/nxc/cur
+root = ssh://gaura@elfiny.top//home/gaura/nxc/cur
+sshargs = -C
+times = true
+xferbycopying = true

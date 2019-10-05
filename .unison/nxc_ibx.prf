@@ -1,0 +1,6 @@
+# Unison preferences
+fat = true
+root = /home/egor/nxc/ibx
+root = ssh://gaura@elfiny.top//home/gaura/nxc/ibx
+sshargs = -C
+xferbycopying = true

@@ -1,8 +1,8 @@
 # GIMP user context
 
-(tool "gimp-curves-tool")
-(paint-info "gimp-paintbrush")
-(brush "2. Hardness 050")
+(tool "gimp-pencil-tool")
+(paint-info "gimp-pencil")
+(brush "2. Hardness 025")
 (dynamics "Dynamics Off")
 (mybrush "Standard")
 (pattern "Pine")

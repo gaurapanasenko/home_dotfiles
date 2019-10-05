@@ -7,3 +7,5 @@ Comment=Simple usability services for Xephyr
 Terminal=false
 Exec=/home/egor/.local/bin/xephyr-helper
 NotShowIn=LXDE;
+Hidden=true
+
